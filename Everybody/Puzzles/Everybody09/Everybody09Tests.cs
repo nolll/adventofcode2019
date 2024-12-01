@@ -32,4 +32,17 @@ public class Everybody09Tests
         var result = Everybody09.Part2(input);
         result.Should().Be(10);
     }
+    
+    [Test]
+    public void Part3()
+    {
+        const string input = """
+                             156488
+                             352486
+                             546212
+                             """;
+        
+        var result = Everybody09.Part3(input);
+        result.Should().Be(10449);
+    }
 }
